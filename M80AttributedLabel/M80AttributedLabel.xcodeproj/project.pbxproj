@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8FAB85B923CED50200AB96FE /* M80Attributed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FAB85AF23CED50200AB96FE /* M80Attributed.framework */; };
+		8FAB85B923CED50200AB96FE /* M80AttributedLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FAB85AF23CED50200AB96FE /* M80AttributedLabel.framework */; };
 		8FAB85BE23CED50200AB96FE /* M80AttributedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAB85BD23CED50200AB96FE /* M80AttributedTests.m */; };
 		8FAB85C023CED50200AB96FE /* M80Attributed.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FAB85B223CED50200AB96FE /* M80Attributed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FAB85D523CED52800AB96FE /* M80AttributedLabelDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FAB85CA23CED52800AB96FE /* M80AttributedLabelDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,7 +37,7 @@
 			remoteGlobalIDString = 8FAB85AE23CED50200AB96FE;
 			remoteInfo = M80Attributed;
 		};
-		8FAB85F823CED5A300AB96FE /* PBXContainerItemProxy */ = {
+		8FAB85FA23CED74E00AB96FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8FAB85A623CED50200AB96FE /* Project object */;
 			proxyType = 1;
@@ -47,7 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8FAB85AF23CED50200AB96FE /* M80Attributed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M80Attributed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FAB85AF23CED50200AB96FE /* M80AttributedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M80AttributedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FAB85B223CED50200AB96FE /* M80Attributed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = M80Attributed.h; sourceTree = "<group>"; };
 		8FAB85B323CED50200AB96FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FAB85B823CED50200AB96FE /* M80AttributedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = M80AttributedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FAB85B923CED50200AB96FE /* M80Attributed.framework in Frameworks */,
+				8FAB85B923CED50200AB96FE /* M80AttributedLabel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +114,7 @@
 		8FAB85B023CED50200AB96FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8FAB85AF23CED50200AB96FE /* M80Attributed.framework */,
+				8FAB85AF23CED50200AB96FE /* M80AttributedLabel.framework */,
 				8FAB85B823CED50200AB96FE /* M80AttributedTests.xctest */,
 				8FAB85E423CED59700AB96FE /* M80AttributedDemo.app */,
 			);
@@ -192,9 +192,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8FAB85AE23CED50200AB96FE /* M80Attributed */ = {
+		8FAB85AE23CED50200AB96FE /* M80AttributedLabel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8FAB85C323CED50200AB96FE /* Build configuration list for PBXNativeTarget "M80Attributed" */;
+			buildConfigurationList = 8FAB85C323CED50200AB96FE /* Build configuration list for PBXNativeTarget "M80AttributedLabel" */;
 			buildPhases = (
 				8FAB85AA23CED50200AB96FE /* Headers */,
 				8FAB85AB23CED50200AB96FE /* Sources */,
@@ -205,9 +205,9 @@
 			);
 			dependencies = (
 			);
-			name = M80Attributed;
+			name = M80AttributedLabel;
 			productName = M80Attributed;
-			productReference = 8FAB85AF23CED50200AB96FE /* M80Attributed.framework */;
+			productReference = 8FAB85AF23CED50200AB96FE /* M80AttributedLabel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8FAB85B723CED50200AB96FE /* M80AttributedTests */ = {
@@ -239,7 +239,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8FAB85F923CED5A300AB96FE /* PBXTargetDependency */,
+				8FAB85FB23CED74E00AB96FE /* PBXTargetDependency */,
 			);
 			name = M80AttributedDemo;
 			productName = M80AttributedDemo;
@@ -267,7 +267,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8FAB85A923CED50200AB96FE /* Build configuration list for PBXProject "M80Attributed" */;
+			buildConfigurationList = 8FAB85A923CED50200AB96FE /* Build configuration list for PBXProject "M80AttributedLabel" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -280,7 +280,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8FAB85AE23CED50200AB96FE /* M80Attributed */,
+				8FAB85AE23CED50200AB96FE /* M80AttributedLabel */,
 				8FAB85B723CED50200AB96FE /* M80AttributedTests */,
 				8FAB85E323CED59700AB96FE /* M80AttributedDemo */,
 			);
@@ -350,13 +350,13 @@
 /* Begin PBXTargetDependency section */
 		8FAB85BB23CED50200AB96FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8FAB85AE23CED50200AB96FE /* M80Attributed */;
+			target = 8FAB85AE23CED50200AB96FE /* M80AttributedLabel */;
 			targetProxy = 8FAB85BA23CED50200AB96FE /* PBXContainerItemProxy */;
 		};
-		8FAB85F923CED5A300AB96FE /* PBXTargetDependency */ = {
+		8FAB85FB23CED74E00AB96FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8FAB85AE23CED50200AB96FE /* M80Attributed */;
-			targetProxy = 8FAB85F823CED5A300AB96FE /* PBXContainerItemProxy */;
+			target = 8FAB85AE23CED50200AB96FE /* M80AttributedLabel */;
+			targetProxy = 8FAB85FA23CED74E00AB96FE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -619,7 +619,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8FAB85A923CED50200AB96FE /* Build configuration list for PBXProject "M80Attributed" */ = {
+		8FAB85A923CED50200AB96FE /* Build configuration list for PBXProject "M80AttributedLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8FAB85C123CED50200AB96FE /* Debug */,
@@ -628,7 +628,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8FAB85C323CED50200AB96FE /* Build configuration list for PBXNativeTarget "M80Attributed" */ = {
+		8FAB85C323CED50200AB96FE /* Build configuration list for PBXNativeTarget "M80AttributedLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8FAB85C423CED50200AB96FE /* Debug */,
